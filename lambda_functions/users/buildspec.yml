@@ -15,6 +15,6 @@ phases:
     commands:
       - echo Starting build phase...
       - zip -r ../users.zip . -x ".*" -x "__MACOSX"
-artifacts:
-  files:
-    - ../users.zip
+  artifacts:
+    files:
+      - ../users.zip
