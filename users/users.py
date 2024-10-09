@@ -27,7 +27,7 @@ def sign_up(event):
     password = body.get('password')
     name = body.get('name')
     role = body.get('role')
-    logger.info(f"Attempting to sign up user: {email}")
+    logger.info(f"Attempting to signn up user: {email}")
 
     try:
         response = sign_up_user(email, password, name, role)
