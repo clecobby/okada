@@ -17,4 +17,4 @@ phases:
       - zip -r ../users.zip . 
   artifacts:
     files:
-      - ../users.zip
+      - users.zip
